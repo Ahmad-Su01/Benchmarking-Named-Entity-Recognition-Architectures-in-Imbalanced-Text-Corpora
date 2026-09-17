@@ -1,0 +1,4 @@
+Model,Parameter,Accuracy,Precision,Recall,F1-Score,PR-AUC,ROC-AUC,Threshold,TP,TN,FP,FN
+Multinomial Naive Bayes,{'classifier__alpha': np.float64(0.001001459154519417)},0.975,0.976,0.972,0.974,0.996,0.997,0.538,2836,3113,69,81
+Logistic Regression,"{'classifier__C': np.float64(9.081746692733857), 'classifier__solver': 'liblinear'}",0.987,0.987,0.985,0.986,0.999,0.999,0.612,2873,3144,38,44
+Linear SVM,{'classifier__C': np.float64(0.46305341047913)},0.988,0.984,0.99,0.987,0.999,0.999,0.038,2888,3135,47,29

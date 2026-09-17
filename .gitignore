@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Machine learning models
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+*.onnx
+
+# ML caches
+.cache/
+.cache_huggingface/
+huggingface_cache/
+transformers_cache/
+
+# Experiment outputs
+runs/
+wandb/
+mlruns/
+outputs/
+checkpoints/
+
+# Logs
+*.log
+*.tmp
+*.temp
+
+# Python build files
+*.egg-info/
+dist/
+build/
+
+# Keep dissertation results, but exclude huge trained-model files
+Results/**/optimizer.pt
+Results/**/model.safetensors
+
+# Original unsplit datasets - keep locally, upload split versions instead
+Datasets/Cleaned/Enron/Enron_Cleaned.csv
+Datasets/NER/Enron/Enron_NER.csv
+Datasets/Baseline/Enron/Enron_Baseline.csv
